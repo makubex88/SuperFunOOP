@@ -15,11 +15,11 @@ namespace FunOOP
 
             //Abstraction
             var abs = new AbstractionConcept();
-            var verified = abs.VerifyCustomerAddress("SM Technopark building taytay rizal");
+            var verified = abs.VerifyCustomerAddress("SM Technopark building sample place");
             Console.WriteLine($"Address is {(verified ? "verified" : "not verified")}");
 
             ////Encapsulation
-            var agentOne = new EncapulationConcept();
+            var agentOne = new EncapulationConcept(); 
             agentOne.GetValues();
             agentOne.BirthDate = DateTime.Now.AddDays(-37);
             agentOne.DisplayCurrentAgent();
